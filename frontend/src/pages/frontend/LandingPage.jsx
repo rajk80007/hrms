@@ -4,7 +4,7 @@ const LandingPage = () => {
   return (
     <div className="font-sans bg-gray-50">
       {/* Hero Section */}
-      <header className="relative bg-gradient-to-r from-indigo-600 to-indigo-800 text-white py-32">
+      <header  style={{ backgroundImage: "url('./images/bg1.jpg')" }} className="bg-cover bg-center flex items-center justify-center text-white relative bg-gradient-to-r from-indigo-600 to-indigo-800 py-32">
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute inset-0 bg-black opacity-50"></div>
         </div>
